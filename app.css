@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  color: #e8290b;
+}
+#navbar {
+  background-color: #222222;
+  height: 80px;
+  width: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 3;
+}
+.navbar-brand {
+  font-size: 40px;
+  letter-spacing: 6px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.navbar-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-link {
+  font-size: 24px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#entry {
+  color: #ffffff;
+  height: 720px;
+  background-color: #222222;
+  background-image:linear-gradient(rgba(0, 0, 0.4, 0.9), rgba(0, 0, 0.4, 0.8), rgba(0, 0, 0.4, 0.9)), url('images/about.JPG') ;
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 150px;
+  text-align: center;
+}
+.entry-text {
+  margin-top: 80px;
+  font-size: 70px;
+  letter-spacing: 3px;
+  font-family: 'Bebas Neue', cursive;
+}
+/* .entry-description {
+  font-size: 20px;
+  margin-top: 25px;
+  line-height: 25px;
+  font-family: 'Poppins', sans-serif;
+} */
+.red-outlined-btn {
+  margin-top: 30px;
+  font-size: 30px;
+  color: #fff;
+  background-color: #e8290b;
+  outline: 1px solid #222222;
+  outline-offset: -5px;
+  letter-spacing: 2px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Bebas Neue', cursive;
+}
+.red-outlined-btn:hover {
+  color: #000;
+  background-color: #fff;
+  transition: all 0.2s linear;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 150px;
+  text-align: center;
+  padding: 60px 120px 60px 120px;
+  /* background-image:url('images/about.JPG');
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.about-list {
+  margin-top: 100px;
+}
+.about-pictures {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  margin-bottom: 80px;
+}
+
+.about-img {
+  width: 500px;
+  height: 500px;
+  border-radius: 500px;
+ 
+  
+}
+.about-info {
+  width: 40%;
+}
+.section-subtitle {
+  color: #e8290b;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 5px;
+}
+.section-header {
+  font-size: 60px;
+  margin-bottom: 10px;
+  font-family: 'Bebas Neue', cursive;
+}
+.about-description {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#projects {
+  text-align: center;
+  padding: 60px;
+}
+.project {
+  text-align: start;
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 0.8px solid #22222210;
+}
+.project-info {
+  padding: 20px;
+}
+.project-title {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 500;
+  font-family: 'Bebas Neue', cursive;
+}
+.project-description {
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.projects-list {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.project-image{
+  height: 250px ;
+  width: 250px;
+}
+
+#blog {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 60px 120px;
+}
+.blog-list {
+  margin-top: 100px;
+}
+.blog {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  margin-bottom: 80px;
+}
+.blog-reverse {
+  flex-direction: row-reverse;
+}
+.blog-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 500px;
+}
+.blog-info {
+  width: 50%;
+}
+.blog-header {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.blog-description {
+  margin-top: 15px;
+}
+/* 
+#testimonial {
+  padding: 120px;
+  text-align: center;
+}
+
+.testimonial-card {
+  position: relative;
+  box-shadow: 0px 20px 40px #0000000d;
+  border-radius: 3px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 60px 120px;
+  background-color: #fff;
+  z-index: 2;
+  margin-top: 40px;
+}
+.testimonial-avatar {
+  display: block;
+  width: 200px;
+  border-radius: 50%;
+  margin: auto;
+} */
+
+/* .testimonial-description {
+  margin: auto;
+  margin-top: 40px;
+}
+.testimonial-name {
+  font-size: 40px;
+  margin-top: 20px;
+  font-family: 'Bebas Neue', cursive;
+} */
+#contact {
+  background-color: #222;
+  color: #000;
+  background-image: url("https://media.istockphoto.com/photos/businessman-touching-icon-mobile-phone-mail-telephone-and-address-picture-id1153130142?k=20&m=1153130142&s=612x612&w=0&h=DWIC-H0piTNxyYHYrpGnxZ0PCBs05HzeViF_nRxsJ2Y=");
+  
+  
+  background-repeat:no-repeat;
+  background-size:contain; background-position:center ;
+  margin-top: -100px;
+  padding: 250px 120px 60px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+}
+
+label {
+  color: #fff;
+  display: block;
+  margin-top: 15px;
+}
+input,
+textarea {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+.heart {
+  font-size: 18px;
+  color: #e8290b;
+}
+
+/*skills*/
+.wrapper{
+  border:5px solid black;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.container{
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 5px;
+} 
+
+.container *{
+  font-family: "Poppins",sans-serif;
+  color: black;
+  font-weight: 500;
+}
+
+h2{
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.details{
+  width: 100%;
+  display: flex;  
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.bar{
+  position: relative;
+
+  border: 2px solid #0d96e0;
+
+  border-radius: 20px;
+
+}
+.bar div{
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+  background-color: #0d96e0;
+
+
+}
+.skills:not(:last-child){
+  margin-bottom: 30px;
+}
+
+#html-bar{
+  animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+  100%{
+      width: 90%;
+  }
+}
+
+#css-bar{
+  animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+  100%{
+      width: 70%;
+  }
+}
+#javascript-bar{
+  animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+  100%{
+      width: 72%;
+  }
+}
