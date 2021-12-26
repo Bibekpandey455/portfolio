@@ -361,3 +361,172 @@ h2{
       width: 72%;
   }
 }
+
+#c-bar{
+  animation: c-fill 2s forwards;
+}
+@keyframes c-fill {
+  100%{
+      width: 75%;
+  }
+}
+
+#embed-bar{
+  animation: embedded-fill 2s forwards;
+}
+@keyframes embedded-fill {
+  100%{
+      width: 40%;
+  }
+}
+
+#react-bar{
+  animation: react-fill 2s forwards;
+}
+@keyframes react-fill {
+  100%{
+      width: 30%;
+  }
+}
+@media(max-width:700px){
+  .navbar-brand {
+    font-size: 15px;
+    letter-spacing: 3px;
+  display: block;}
+    .navbar-links {
+     width: 30%;}
+    .navbar-link {
+      font-size: 12px;}
+      #entry {
+        height: 480px;
+        background-size: cover;
+        display: flex;
+        align-items: center;}
+        .entry-text {
+          margin-top: 40px;
+          font-size: 20px;
+          letter-spacing: 2px;}
+          .red-outlined-btn {
+            margin-top: 30px;
+            font-size: 10px;
+          }
+          .about-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 300px;
+           
+            
+          }
+          .about-info {
+            width: 50%;
+          }
+          .section-subtitle {
+            
+            font-size: 7px;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 3px;
+          }
+          .section-header {
+            font-size: 20px;
+            margin-bottom: 5px;
+            font-family: 'Bebas Neue', cursive;
+          }
+          .about-description {
+            font-size: 10px;}
+            .blog-image {
+              width: 150px;
+              height: 150px;
+              border-radius: 300px;
+            }
+            .blog-info {
+              width: 60px;
+            }
+            .blog-header {
+              
+              font-size: 10px;
+              letter-spacing: 1px;
+            }
+            .blog-description {
+              
+              font-size: 8px;
+            }
+            .project-info {
+              padding: 10px;
+            }
+            .project-title {
+              font-size: 10px;
+              margin-top: 20px;
+              font-weight: 300;
+              
+            }
+            .project-description {
+              font-size: 8px;
+            }
+            .project-image{
+              height: 150px ;
+              width: 150px;
+            }
+            form {
+              width: 60%;
+              margin: auto;
+            }
+            
+            label {
+              
+              display: block;
+              
+            }
+            input,
+            textarea {
+              padding: 5px;
+              width: 100%;
+              border-radius: 5px;
+              font-size: 9px;
+            }
+            
+            footer {
+              padding: 20px;
+              text-align: center;
+              font-size: 10px;
+            }
+            .heart {
+              font-size: 10px;
+              
+            }
+            .wrapper{
+              border:3px solid black;
+              margin-left: 20%;
+              margin-right: 20%;
+              margin-top: 10px;
+              border-radius: 8px;
+            }
+            .container{
+              margin-left: 20%;
+              margin-right: 20%;
+              margin-bottom: 5px;
+            } 
+            
+            .container *{
+              font-family: "Poppins",sans-serif;
+              color: black;
+              font-weight: 300;
+            }
+            
+            h2{
+              
+              letter-spacing: 2px;
+              text-align: center;
+              font-size: 10px;
+              font-weight: bold;
+            }
+            
+            .details{
+              width: 100%;
+              display: flex;  
+              justify-content: space-between;
+              margin-bottom: 10px;
+            }
+
+}
+
+
